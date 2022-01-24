@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F20258A7279F0CF700C9D5BC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20258A6279F0CF700C9D5BC /* HeaderView.swift */; };
+		F20258A9279F0D0600C9D5BC /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20258A8279F0D0600C9D5BC /* FooterView.swift */; };
+		F20258AB279F0E8900C9D5BC /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20258AA279F0E8900C9D5BC /* LogoView.swift */; };
+		F2F4E4C12797986700D0997B /* TilliesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F4E4C02797986700D0997B /* TilliesApp.swift */; };
+		F2F4E4C32797986700D0997B /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F4E4C22797986700D0997B /* ExploreView.swift */; };
+		F2F4E4C52797986800D0997B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F4E4C42797986800D0997B /* Assets.xcassets */; };
+		F2F4E4C82797986800D0997B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F4E4C72797986800D0997B /* Preview Assets.xcassets */; };
+		F2F4E4CA2797986800D0997B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F4E4C92797986800D0997B /* Persistence.swift */; };
+		F2F4E4CD2797986800D0997B /* Tillies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2F4E4CB2797986800D0997B /* Tillies.xcdatamodeld */; };
+		F2F4E4D427979BA400D0997B /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F4E4D327979BA400D0997B /* MotionAnimationView.swift */; };
+		F2F4E4D62797A07D00D0997B /* NFTCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F4E4D52797A07D00D0997B /* NFTCardView.swift */; };
+		F2F4E4D8279899CD00D0997B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F4E4D7279899CD00D0997B /* ProfileView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F20258A6279F0CF700C9D5BC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F20258A8279F0D0600C9D5BC /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		F20258AA279F0E8900C9D5BC /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		F2F4E4BD2797986700D0997B /* Tillies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tillies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F4E4C02797986700D0997B /* TilliesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilliesApp.swift; sourceTree = "<group>"; };
+		F2F4E4C22797986700D0997B /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		F2F4E4C42797986800D0997B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2F4E4C72797986800D0997B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2F4E4C92797986800D0997B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F2F4E4CC2797986800D0997B /* Tillies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tillies.xcdatamodel; sourceTree = "<group>"; };
+		F2F4E4D327979BA400D0997B /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		F2F4E4D52797A07D00D0997B /* NFTCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTCardView.swift; sourceTree = "<group>"; };
+		F2F4E4D7279899CD00D0997B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2F4E4BA2797986700D0997B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2F4E4B42797986700D0997B = {
+			isa = PBXGroup;
+			children = (
+				F2F4E4BF2797986700D0997B /* Tillies */,
+				F2F4E4BE2797986700D0997B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2F4E4BE2797986700D0997B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2F4E4BD2797986700D0997B /* Tillies.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2F4E4BF2797986700D0997B /* Tillies */ = {
+			isa = PBXGroup;
+			children = (
+				F2F4E4D9279899E100D0997B /* Sub Views */,
+				F2F4E4C02797986700D0997B /* TilliesApp.swift */,
+				F2F4E4C22797986700D0997B /* ExploreView.swift */,
+				F2F4E4D7279899CD00D0997B /* ProfileView.swift */,
+				F2F4E4D52797A07D00D0997B /* NFTCardView.swift */,
+				F2F4E4C42797986800D0997B /* Assets.xcassets */,
+				F2F4E4C92797986800D0997B /* Persistence.swift */,
+				F2F4E4CB2797986800D0997B /* Tillies.xcdatamodeld */,
+				F2F4E4C62797986800D0997B /* Preview Content */,
+				F2F4E4D327979BA400D0997B /* MotionAnimationView.swift */,
+			);
+			path = Tillies;
+			sourceTree = "<group>";
+		};
+		F2F4E4C62797986800D0997B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F2F4E4C72797986800D0997B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2F4E4D9279899E100D0997B /* Sub Views */ = {
+			isa = PBXGroup;
+			children = (
+				F20258A6279F0CF700C9D5BC /* HeaderView.swift */,
+				F20258A8279F0D0600C9D5BC /* FooterView.swift */,
+				F20258AA279F0E8900C9D5BC /* LogoView.swift */,
+			);
+			path = "Sub Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2F4E4BC2797986700D0997B /* Tillies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2F4E4D02797986800D0997B /* Build configuration list for PBXNativeTarget "Tillies" */;
+			buildPhases = (
+				F2F4E4B92797986700D0997B /* Sources */,
+				F2F4E4BA2797986700D0997B /* Frameworks */,
+				F2F4E4BB2797986700D0997B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tillies;
+			productName = Tillies;
+			productReference = F2F4E4BD2797986700D0997B /* Tillies.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2F4E4B52797986700D0997B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F2F4E4BC2797986700D0997B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F2F4E4B82797986700D0997B /* Build configuration list for PBXProject "Tillies" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2F4E4B42797986700D0997B;
+			productRefGroup = F2F4E4BE2797986700D0997B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2F4E4BC2797986700D0997B /* Tillies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2F4E4BB2797986700D0997B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F4E4C82797986800D0997B /* Preview Assets.xcassets in Resources */,
+				F2F4E4C52797986800D0997B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2F4E4B92797986700D0997B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F4E4CA2797986800D0997B /* Persistence.swift in Sources */,
+				F2F4E4D62797A07D00D0997B /* NFTCardView.swift in Sources */,
+				F2F4E4C32797986700D0997B /* ExploreView.swift in Sources */,
+				F20258A9279F0D0600C9D5BC /* FooterView.swift in Sources */,
+				F2F4E4CD2797986800D0997B /* Tillies.xcdatamodeld in Sources */,
+				F20258AB279F0E8900C9D5BC /* LogoView.swift in Sources */,
+				F2F4E4C12797986700D0997B /* TilliesApp.swift in Sources */,
+				F2F4E4D8279899CD00D0997B /* ProfileView.swift in Sources */,
+				F2F4E4D427979BA400D0997B /* MotionAnimationView.swift in Sources */,
+				F20258A7279F0CF700C9D5BC /* HeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F2F4E4CE2797986800D0997B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2F4E4CF2797986800D0997B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2F4E4D12797986800D0997B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tillies/Preview Content\"";
+				DEVELOPMENT_TEAM = GDUSYDN3AG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.sawyercherry.Tillies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2F4E4D22797986800D0997B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tillies/Preview Content\"";
+				DEVELOPMENT_TEAM = GDUSYDN3AG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.sawyercherry.Tillies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2F4E4B82797986700D0997B /* Build configuration list for PBXProject "Tillies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2F4E4CE2797986800D0997B /* Debug */,
+				F2F4E4CF2797986800D0997B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2F4E4D02797986800D0997B /* Build configuration list for PBXNativeTarget "Tillies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2F4E4D12797986800D0997B /* Debug */,
+				F2F4E4D22797986800D0997B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2F4E4CB2797986800D0997B /* Tillies.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2F4E4CC2797986800D0997B /* Tillies.xcdatamodel */,
+			);
+			currentVersion = F2F4E4CC2797986800D0997B /* Tillies.xcdatamodel */;
+			path = Tillies.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F2F4E4B52797986700D0997B /* Project object */;
+}
