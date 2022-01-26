@@ -6,15 +6,15 @@
 //
 
 import SwiftUI
-
+import Flow
 @main
 struct TilliesApp: App {
-    let persistenceController = PersistenceController.shared
 
     var body: some Scene {
         WindowGroup {
             NFTCardView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            
+            
         }
     }
 }
