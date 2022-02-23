@@ -1,20 +1,20 @@
 //
-//  ProfileView.swift
+//  CreateNFTView.swift
 //  Tillies
 //
-//  Created by Sawyer Cherry on 1/19/22.
+//  Created by Sawyer Cherry on 2/9/22.
 //
 
 import SwiftUI
 
-struct ProfileView: View {
+struct CreateNFTView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct ProfileView_Previews: PreviewProvider {
+struct CreateNFTView_Previews: PreviewProvider {
     static var previews: some View {
-        ProfileView()
+        CreateNFTView()
     }
 }

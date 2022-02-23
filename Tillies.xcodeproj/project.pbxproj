@@ -13,6 +13,13 @@
 		F20258AE279F177600C9D5BC /* Flow in Frameworks */ = {isa = PBXBuildFile; productRef = F20258AD279F177600C9D5BC /* Flow */; };
 		F20258B1279F181900C9D5BC /* FlowBlockchain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20258B0279F181900C9D5BC /* FlowBlockchain.swift */; };
 		F20258B3279F2A6800C9D5BC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20258B2279F2A6800C9D5BC /* LoginView.swift */; };
+		F25B90B627A0F479002B6216 /* FCLAuthSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F25B90B527A0F479002B6216 /* FCLAuthSwift */; };
+		F25B90B927A2FBFF002B6216 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25B90B827A2FBFF002B6216 /* LoginViewModel.swift */; };
+		F25B90C027A885D7002B6216 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25B90BF27A885D7002B6216 /* ProfileViewModel.swift */; };
+		F277A79F27B4B1240006C45F /* CreateNFTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F277A79E27B4B1240006C45F /* CreateNFTView.swift */; };
+		F277A7A127B4B1380006C45F /* CreateNFTViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F277A7A027B4B1380006C45F /* CreateNFTViewModel.swift */; };
+		F28DDD8B27B1CD160091E138 /* NFTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28DDD8A27B1CD160091E138 /* NFTModel.swift */; };
+		F2D3F4CF27ADDB8E00497B68 /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D3F4CE27ADDB8E00497B68 /* SymbolModifier.swift */; };
 		F2F4E4C12797986700D0997B /* TilliesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F4E4C02797986700D0997B /* TilliesApp.swift */; };
 		F2F4E4C32797986700D0997B /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F4E4C22797986700D0997B /* ExploreView.swift */; };
 		F2F4E4C52797986800D0997B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F4E4C42797986800D0997B /* Assets.xcassets */; };
@@ -28,6 +35,12 @@
 		F20258AA279F0E8900C9D5BC /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		F20258B0279F181900C9D5BC /* FlowBlockchain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowBlockchain.swift; sourceTree = "<group>"; };
 		F20258B2279F2A6800C9D5BC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F25B90B827A2FBFF002B6216 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		F25B90BF27A885D7002B6216 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		F277A79E27B4B1240006C45F /* CreateNFTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNFTView.swift; sourceTree = "<group>"; };
+		F277A7A027B4B1380006C45F /* CreateNFTViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNFTViewModel.swift; sourceTree = "<group>"; };
+		F28DDD8A27B1CD160091E138 /* NFTModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTModel.swift; sourceTree = "<group>"; };
+		F2D3F4CE27ADDB8E00497B68 /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
 		F2F4E4BD2797986700D0997B /* Tillies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tillies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F4E4C02797986700D0997B /* TilliesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilliesApp.swift; sourceTree = "<group>"; };
 		F2F4E4C22797986700D0997B /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
@@ -43,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F25B90B627A0F479002B6216 /* FCLAuthSwift in Frameworks */,
 				F20258AE279F177600C9D5BC /* Flow in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,6 +70,48 @@
 				F20258B0279F181900C9D5BC /* FlowBlockchain.swift */,
 			);
 			path = Blockchain;
+			sourceTree = "<group>";
+		};
+		F25B90B727A2F1E3002B6216 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				F25B90B827A2FBFF002B6216 /* LoginViewModel.swift */,
+				F25B90BF27A885D7002B6216 /* ProfileViewModel.swift */,
+				F277A7A027B4B1380006C45F /* CreateNFTViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		F25B90BA27A2FD16002B6216 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F25B90B727A2F1E3002B6216 /* View Model */,
+				F2D3F4CD27ADDB7300497B68 /* Modifier */,
+				F2F4E4D9279899E100D0997B /* Sub Views */,
+				F2F4E4C02797986700D0997B /* TilliesApp.swift */,
+				F2F4E4D7279899CD00D0997B /* ProfileView.swift */,
+				F2F4E4D52797A07D00D0997B /* NFTCardView.swift */,
+				F20258B2279F2A6800C9D5BC /* LoginView.swift */,
+				F2F4E4C22797986700D0997B /* ExploreView.swift */,
+				F277A79E27B4B1240006C45F /* CreateNFTView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F28DDD8927B1CD050091E138 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F28DDD8A27B1CD160091E138 /* NFTModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2D3F4CD27ADDB7300497B68 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				F2D3F4CE27ADDB8E00497B68 /* SymbolModifier.swift */,
+			);
+			path = Modifier;
 			sourceTree = "<group>";
 		};
 		F2F4E4B42797986700D0997B = {
@@ -77,16 +133,11 @@
 		F2F4E4BF2797986700D0997B /* Tillies */ = {
 			isa = PBXGroup;
 			children = (
+				F28DDD8927B1CD050091E138 /* Model */,
 				F20258AF279F17FC00C9D5BC /* Blockchain */,
-				F2F4E4D9279899E100D0997B /* Sub Views */,
-				F2F4E4C02797986700D0997B /* TilliesApp.swift */,
-				F2F4E4C22797986700D0997B /* ExploreView.swift */,
-				F2F4E4D7279899CD00D0997B /* ProfileView.swift */,
-				F2F4E4D52797A07D00D0997B /* NFTCardView.swift */,
+				F25B90BA27A2FD16002B6216 /* View */,
 				F2F4E4C42797986800D0997B /* Assets.xcassets */,
 				F2F4E4C62797986800D0997B /* Preview Content */,
-				F2F4E4D327979BA400D0997B /* MotionAnimationView.swift */,
-				F20258B2279F2A6800C9D5BC /* LoginView.swift */,
 			);
 			path = Tillies;
 			sourceTree = "<group>";
@@ -102,6 +153,7 @@
 		F2F4E4D9279899E100D0997B /* Sub Views */ = {
 			isa = PBXGroup;
 			children = (
+				F2F4E4D327979BA400D0997B /* MotionAnimationView.swift */,
 				F20258A6279F0CF700C9D5BC /* HeaderView.swift */,
 				F20258A8279F0D0600C9D5BC /* FooterView.swift */,
 				F20258AA279F0E8900C9D5BC /* LogoView.swift */,
@@ -127,6 +179,7 @@
 			name = Tillies;
 			packageProductDependencies = (
 				F20258AD279F177600C9D5BC /* Flow */,
+				F25B90B527A0F479002B6216 /* FCLAuthSwift */,
 			);
 			productName = Tillies;
 			productReference = F2F4E4BD2797986700D0997B /* Tillies.app */;
@@ -158,6 +211,7 @@
 			mainGroup = F2F4E4B42797986700D0997B;
 			packageReferences = (
 				F20258AC279F177600C9D5BC /* XCRemoteSwiftPackageReference "flow-swift" */,
+				F25B90B427A0F479002B6216 /* XCRemoteSwiftPackageReference "fcl-auth-swift" */,
 			);
 			productRefGroup = F2F4E4BE2797986700D0997B /* Products */;
 			projectDirPath = "";
@@ -185,14 +239,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2D3F4CF27ADDB8E00497B68 /* SymbolModifier.swift in Sources */,
 				F2F4E4D62797A07D00D0997B /* NFTCardView.swift in Sources */,
 				F2F4E4C32797986700D0997B /* ExploreView.swift in Sources */,
+				F277A7A127B4B1380006C45F /* CreateNFTViewModel.swift in Sources */,
+				F28DDD8B27B1CD160091E138 /* NFTModel.swift in Sources */,
+				F25B90B927A2FBFF002B6216 /* LoginViewModel.swift in Sources */,
+				F277A79F27B4B1240006C45F /* CreateNFTView.swift in Sources */,
 				F20258A9279F0D0600C9D5BC /* FooterView.swift in Sources */,
 				F20258AB279F0E8900C9D5BC /* LogoView.swift in Sources */,
 				F2F4E4C12797986700D0997B /* TilliesApp.swift in Sources */,
 				F2F4E4D8279899CD00D0997B /* ProfileView.swift in Sources */,
 				F20258B1279F181900C9D5BC /* FlowBlockchain.swift in Sources */,
 				F2F4E4D427979BA400D0997B /* MotionAnimationView.swift in Sources */,
+				F25B90C027A885D7002B6216 /* ProfileViewModel.swift in Sources */,
 				F20258B3279F2A6800C9D5BC /* LoginView.swift in Sources */,
 				F20258A7279F0CF700C9D5BC /* HeaderView.swift in Sources */,
 			);
@@ -409,6 +469,14 @@
 				version = "0.1.3-beta";
 			};
 		};
+		F25B90B427A0F479002B6216 /* XCRemoteSwiftPackageReference "fcl-auth-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zed-io/fcl-auth-swift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -416,6 +484,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F20258AC279F177600C9D5BC /* XCRemoteSwiftPackageReference "flow-swift" */;
 			productName = Flow;
+		};
+		F25B90B527A0F479002B6216 /* FCLAuthSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F25B90B427A0F479002B6216 /* XCRemoteSwiftPackageReference "fcl-auth-swift" */;
+			productName = FCLAuthSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

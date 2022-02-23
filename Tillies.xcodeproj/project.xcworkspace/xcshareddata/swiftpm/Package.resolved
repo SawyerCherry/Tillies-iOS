@@ -11,6 +11,15 @@
         }
       },
       {
+        "package": "FCLAuthSwift",
+        "repositoryURL": "https://github.com/zed-io/fcl-auth-swift.git",
+        "state": {
+          "branch": "main",
+          "revision": "2d83f050546609a368d024a7fe58b1e245a57279",
+          "version": null
+        }
+      },
+      {
         "package": "Flow",
         "repositoryURL": "https://github.com/zed-io/flow-swift.git",
         "state": {
