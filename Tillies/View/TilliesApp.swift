@@ -8,7 +8,7 @@
 import SwiftUI
 import Flow
 @main
-struct TilliesApp: App {
+struct TilliesApp: SwiftUI.App {
     
 
     @AppStorage("isSendingHome") var isSendingHome: Bool = false
@@ -19,6 +19,9 @@ struct TilliesApp: App {
         WindowGroup {
             if isSendingHome == false {
                 LoginView()
+                    .onAppear {
+                        dosomJazz()
+                    }
             } else {
                 TabView {
                     ProfileView()
@@ -35,18 +38,105 @@ struct TilliesApp: App {
                             Text("Explore")
                                 .foregroundColor(Color(UIColor.systemGreen))
                         }
-                    NFTCardView(model: NFTModel())
-                        .tabItem {
-                            Image(systemName: "doc.text")
-                                .foregroundColor(Color(UIColor.systemGreen))
-                            Text("View")
-                                .foregroundColor(Color(UIColor.systemGreen))
-                        }
+//                    NFTCardView(model: NFTModel(id: "lala", price: 1))
+//                        .tabItem {
+//                            Image(systemName: "doc.text")
+//                                .foregroundColor(Color(UIColor.systemGreen))
+//                            Text("View")
+//                                .foregroundColor(Color(UIColor.systemGreen))
+//                        }
                 }
                 
             }
         }
     }
+}
+
+import Realm
+import RealmSwift
+
+class RealmStore {
+    init() {
+        
+    }
+    
+    class func getRealm() -> Realm {
+        let app = App(id: "application-2-pjkex")
+        dosomJazz()
+        let config = app.currentUser!.configuration(partitionValue: "tillies")
+        let realm = try! Realm(configuration: config)
+        return realm
+    }
+}
+
+func dosomJazz() {
+    Task {
+        
+        let app = App(id: "application-2-pjkex")
+        
+        do {
+            let user = try await app.login(credentials: .anonymous)
+            let config = user.configuration(partitionValue: "tillies")
+            let _ = try await Realm(configuration: config)
+        } catch {
+            print(error)
+        }
+        
+        
+    }
+}
+
+//Histogram(["foo", "foo", "bar"])
+//foo = 2
+//bar = 1
+//    .add("foo")
+//    .remove("foo")
+//    .count(for: "foo") => 2
+
+
+//{
+//  "title": "nft",
+//  "properties": {
+//    "__v": {
+//      "bsonType": "int"
+//    },
+//    "_id": {
+//      "bsonType": "objectId"
+//    },
+//    "description": {
+//      "bsonType": "string"
+//    },
+//    "file": {
+//      "bsonType": "string"
+//    },
+//    "id": {
+//      "bsonType": "int"
+//    },
+//    "partition": {
+//      "bsonType": "string"
+//    },
+//    "price": {
+//      "bsonType": "int"
+//    },
+//    "title": {
+//      "bsonType": "string"
+//    }
+//  },
+//  "required": [
+//    "partition"
+//  ]
+//}
+class nft: Object {
+//    override class func className() -> String {
+//        "nft"
+//    }
+    
+    @Persisted(primaryKey: true) var _id: ObjectId?
+    @Persisted var notes: String? // aka description
+    @Persisted var file: String?
+    @Persisted var price: Int?
+    @Persisted var partition: String
+    @Persisted var title: String?
 }
 
 // understand the demo

@@ -9,7 +9,12 @@ import SwiftUI
 
 struct NFTCardView: View {
     
-    var model: NFTModel
+    let id: Int
+    let price: Int
+    let title: String
+    let image: Image
+    let file: String
+    let description: String
     
     var body: some View {
         
@@ -20,7 +25,7 @@ struct NFTCardView: View {
             .frame(minWidth: 0, maxWidth: .infinity)
             .overlay(
                 VStack(alignment: .center, spacing: 12) {
-                    Text("Neoge")
+                    Text(title)
                         .foregroundColor(Color.white)
                         .font(.largeTitle)
                         .fontWeight(.bold)

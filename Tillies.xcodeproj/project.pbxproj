@@ -20,8 +20,7 @@
 		F25B90C027A885D7002B6216 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25B90BF27A885D7002B6216 /* ProfileViewModel.swift */; };
 		F2675DD527C6B98000CF07D3 /* Icebox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2675DD427C6B98000CF07D3 /* Icebox.swift */; };
 		F277A79F27B4B1240006C45F /* CreateNFTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F277A79E27B4B1240006C45F /* CreateNFTView.swift */; };
-		F277A7A127B4B1380006C45F /* CreateNFTViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F277A7A027B4B1380006C45F /* CreateNFTViewModel.swift */; };
-		F28DDD8B27B1CD160091E138 /* NFTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28DDD8A27B1CD160091E138 /* NFTModel.swift */; };
+		F2B1E24D27D5C6240056623B /* NFTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1E24C27D5C6240056623B /* NFTModel.swift */; };
 		F2D3F4CF27ADDB8E00497B68 /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D3F4CE27ADDB8E00497B68 /* SymbolModifier.swift */; };
 		F2F4E4C12797986700D0997B /* TilliesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F4E4C02797986700D0997B /* TilliesApp.swift */; };
 		F2F4E4C32797986700D0997B /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F4E4C22797986700D0997B /* ExploreView.swift */; };
@@ -42,8 +41,7 @@
 		F25B90BF27A885D7002B6216 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		F2675DD427C6B98000CF07D3 /* Icebox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icebox.swift; sourceTree = "<group>"; };
 		F277A79E27B4B1240006C45F /* CreateNFTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNFTView.swift; sourceTree = "<group>"; };
-		F277A7A027B4B1380006C45F /* CreateNFTViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNFTViewModel.swift; sourceTree = "<group>"; };
-		F28DDD8A27B1CD160091E138 /* NFTModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTModel.swift; sourceTree = "<group>"; };
+		F2B1E24C27D5C6240056623B /* NFTModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTModel.swift; sourceTree = "<group>"; };
 		F2D3F4CE27ADDB8E00497B68 /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
 		F2F4E4BD2797986700D0997B /* Tillies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tillies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F4E4C02797986700D0997B /* TilliesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilliesApp.swift; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 			children = (
 				F25B90B827A2FBFF002B6216 /* LoginViewModel.swift */,
 				F25B90BF27A885D7002B6216 /* ProfileViewModel.swift */,
-				F277A7A027B4B1380006C45F /* CreateNFTViewModel.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -104,10 +101,10 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		F28DDD8927B1CD050091E138 /* Model */ = {
+		F2B1E24B27D5C6150056623B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F28DDD8A27B1CD160091E138 /* NFTModel.swift */,
+				F2B1E24C27D5C6240056623B /* NFTModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -139,7 +136,7 @@
 		F2F4E4BF2797986700D0997B /* Tillies */ = {
 			isa = PBXGroup;
 			children = (
-				F28DDD8927B1CD050091E138 /* Model */,
+				F2B1E24B27D5C6150056623B /* Model */,
 				F20258AF279F17FC00C9D5BC /* Blockchain */,
 				F25B90BA27A2FD16002B6216 /* View */,
 				F2F4E4C42797986800D0997B /* Assets.xcassets */,
@@ -251,9 +248,8 @@
 			files = (
 				F2D3F4CF27ADDB8E00497B68 /* SymbolModifier.swift in Sources */,
 				F2F4E4D62797A07D00D0997B /* NFTCardView.swift in Sources */,
+				F2B1E24D27D5C6240056623B /* NFTModel.swift in Sources */,
 				F2F4E4C32797986700D0997B /* ExploreView.swift in Sources */,
-				F277A7A127B4B1380006C45F /* CreateNFTViewModel.swift in Sources */,
-				F28DDD8B27B1CD160091E138 /* NFTModel.swift in Sources */,
 				F25B90B927A2FBFF002B6216 /* LoginViewModel.swift in Sources */,
 				F277A79F27B4B1240006C45F /* CreateNFTView.swift in Sources */,
 				F20258A9279F0D0600C9D5BC /* FooterView.swift in Sources */,

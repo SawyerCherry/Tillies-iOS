@@ -2,13 +2,15 @@
 //  NFTModel.swift
 //  Tillies
 //
-//  Created by Sawyer Cherry on 2/7/22.
+//  Created by Sawyer Cherry on 3/6/22.
 //
 
 import Foundation
 
 
-struct NFTModel: Identifiable, Hashable {
-    
-    var id = UUID()
+struct NFTModel: Hashable, Identifiable {
+    let id: String
+    let price: Int
+    let title: String
+    let description: String
 }
